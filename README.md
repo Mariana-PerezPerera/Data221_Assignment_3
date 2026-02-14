@@ -1,6 +1,10 @@
 # Data221_Assignment_3
 Question1: This file imports the pandas package in order for the 'crime' file to be able to be loaded into a DataFrame. It then computes the following statistical measure of the dataset, the mean, median, standard deviation, minimum value, and the maximum value. Lastly, all of these values are printed and the explanation is included at the end.
+
 Question2: This file loads the 'crime' dataset as a DataFrame and then creates a histogram and a boxplot of the data. A bin width of 18 is included for the histogram as well. The explanations and descriptions are included at the end.
+
 Question3: File 3 loads in a 'kidney_disease' dataset into a DataFrame as well and then creates a feature matrix as well as the label vector y. This allows for the data to be split into training and testing data. Lastly the training and testing features are computed and printed, and the corresponding explanation is included at the end.
+
 Question4: This file is working with the KNN model. It loads in the same 'kidney_disease' dataset from the previous file and has a few tweaks in order to be able to train the model. Before the model is trained the data is split into training and testing data again. The model is then tested and a prediction is made on the testing data as well. The confusion matrix is also computed and printed. Lastly, the following evaluation metrices are computed and printed, accuracy, precision, recall, and f1. The explanation is at the end.
+
 Question5: This file loads in the same 'kidney_disease' dataset as well and makes it a DataFrame. The missing values are replaced like the previous file. The features are separated while the categorical variables are converted into numerical. The dataset is split into the training and testing data and then the KNN model is trained with the specific k values that were assigned. Each of the values is looped through and each model is trained and then saved into an empty list in order to be able to find the highest accuracy. The results table is printed with the final accuracy and then the best k and accuracy are computed and printed. The explanation is included at the end.
